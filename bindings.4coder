@@ -1,13 +1,9 @@
 
 keys_global = {
-    { "keyboard_macro_start_recording",  },
-    { "keyboard_macro_finish_recording", },
-    { "keyboard_macro_replay",           },
-
     { "exit_4coder",                   "F4", "Alt" },
     { "change_active_panel",           "Comma", "Control" },
     { "interactive_open_or_new",       "O", "Control" },
-    { "interactive_switch_buffer",     "I", "Control" },
+    { "interactive_switch_buffer",     "P", "Control" },
     { "change_to_build_panel",         "Period", "Alt" },
     { "close_build_panel",             "Comma", "Alt" },
     { "build_in_build_panel",          "M", "Alt" },
@@ -29,6 +25,10 @@ keys_global = {
     // { "execute_previous_cli",          "Z", "Alt", "Shift" },
     // { "project_command_lister",        "X", "Alt", "Shift" },
     // { "jump_to_last_point",            "P", "Control" },
+
+    // { "keyboard_macro_start_recording",  },
+    // { "keyboard_macro_finish_recording", },
+    // { "keyboard_macro_replay",           },
 
     // { "project_fkey_command", "F1" },
     // { "project_fkey_command", "F2" },
@@ -59,8 +59,8 @@ keys_file = {
     { "move_left",              "Left" },
     { "move_right",             "Right" },
     
-    { "seek_end_of_line",       "Right", "Alt" },
-    { "seek_beginning_of_line", "Left",  "Alt"},
+    { "seek_end_of_line",       "E", "Control" },
+    { "seek_beginning_of_line", "A", "Control"},
     { "page_up",                "PageUp" },
     { "page_down",              "PageDown" },
     { "goto_beginning_of_file", "PageUp", "Control" },
@@ -83,13 +83,13 @@ keys_file = {
     { "delete_line",                 "D", "Control", "Shift" },
     { "duplicate_line",              "L", "Control" },
     { "goto_line",                   "G", "Control" },
-    { "center_view",                 "E", "Control" },
+    { "center_view",                 "T", "Control" },
     { "query_replace",               "Q", "Control" },
     { "search",                      "F", "Control" },
-    { "reverse_search",              "R", "Control" },
-    { "replace_in_range",            "A", "Control" },
     { "list_all_locations",          "F", "Control", "Shift" },
 
+    // { "replace_in_range",            "A", "Control" },
+    // { "reverse_search",              "R", "Control" },
     // { "snipe_backward_whitespace_or_token_boundary", "Backspace", "Alt" },
     // { "snipe_forward_whitespace_or_token_boundary",  "Delete", "Alt" },
     // { "delete_range",                "D", "Control" },
