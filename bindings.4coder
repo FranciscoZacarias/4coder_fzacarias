@@ -77,7 +77,7 @@ keys_file = {
     { "copy",                        "C", "Control" },
     { "paste_and_indent",            "V", "Control" },
     { "cut",                         "X", "Control" },
-    { "redo",                        "Y", "Control", "Shift" },
+    { "redo",                        "Z", "Control", "Shift" },
     { "undo",                        "Z", "Control" },
     { "save",                        "S", "Control" },
     { "delete_line",                 "D", "Control", "Shift" },
